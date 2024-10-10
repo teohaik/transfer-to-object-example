@@ -1,0 +1,332 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "lastModifiedDate" : "2024-01-04T13:06:32Z",
+  "properties" : {
+    "structurizr.dsl" : "IWNvbnN0YW50IFNZU1RFTV9OQU1FICJQT0MgZEFwcCIKCndvcmtzcGFjZSB7CiAgICBtb2RlbCB7CiAgICAgICAgdXNlciA9IHBlcnNvbiAiVXNlciIgIkEgdXNlciBoYXZpbmcgYSB3YWxsZXQgdGhhdCBzdXBwb3J0cyBTdWkuIgoKICAgICAgICBnYW1lID0gc29mdHdhcmVTeXN0ZW0gIiR7U1lTVEVNX05BTUV9IiAiQWxsb3dzIE15c3RlbiBMYWJzIHRvIHNob3djYXNlIGEgUE9DLiIgewogICAgICAgICAgICBncm91cCAiRnJvbnRlbmQiIHsKICAgICAgICAgICAgICAgIHdlYmFwcENvbXAgPSBjb250YWluZXIgIldlYiBBcHBsaWNhdGlvbiIgIkRlbGl2ZXJzIHRoZSBVSSBhcyBhIHNpbmdsZSBwYWdlIGFwcGxpY2F0aW9uLiIgIm5leHQuanMiCiAgICAgICAgICAgICAgICBtdWx0aVBhZ2VBcHBsaWNhdGlvbkNvbnQgPSBjb250YWluZXIgIk11bHRpLVBhZ2UtQXBwbGljYXRpb24iICJBIHNpbmdsZSBwYWdlIGFwcGxpY2F0aW9uIHRoYXQgdGhlIHVzZXIgaW50ZXJhY3RzIHdpdGguIiAiUmVhY3QiIHsKICAgICAgICAgICAgICAgICAgICBhdXRoZW50aWNhdG9yID0gY29tcG9uZW50ICJBdXRoZW50aWNhdG9yIiAiSGFuZGxlcyB0aGUgdXNlcidzIHRyYW5zYWN0aW9uIGF1dGhlbnRpY2F0aW9uLiIgInprbG9naW4iCiAgICAgICAgICAgICAgICAgICAgbWFpbkNvbXBvbmVudCA9IGNvbXBvbmVudCAiTWFpbiBDb21wb25lbnQiICJBbGxvd3MgdGhlIHVzZXIgdG8gaW50ZXJhY3Qgd2l0aCB0aGUgZ2FtZSBib2FyZCBhbmQgdGhlIGNhcmRzLiIgIlJlYWN0LCBTdWkgVFMtU0RLIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIk1haW4gQ29tcG9uZW50IgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBhc3NldHMgPSBjb21wb25lbnQgIkFzc2V0cyIgIkNvbnRhaW5zIHRoZSBhcHAncyBpY29ucywgbG9vayBhbmQgb3RoZXIgZGVzaWducy4iICJQTkcsIEpQRUcsIFNWRyIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJhc3NldHMiCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHRhZ3MgIlNQQSIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBncm91cCAiV2ViMyBMYXllciIgewogICAgICAgICAgICAgICAgc21hcnRDb250cmFjdENvbnQgPSBjb250YWluZXIgIlNtYXJ0IENvbnRyYWN0IiAiQ29udGFpbnMgYWxsIHRoZSBzbWFydCBjb250cmFjdCBydWxlcy4iICJTdWkgTW92ZSIgewogICAgICAgICAgICAgICAgICAgIHRhZ3MgInNtYXJ0IGNvbnRyYWN0IgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAjIENvbnRleHQgbGV2ZWwgcmVsYXRpb25zaGlwcwogICAgICAgIHVzZXIgLT4gZ2FtZSAiUGxheXMiCgogICAgICAgICMgQ29tcG9uZW50IGxldmVsIHJlbGF0aW9uc2hpcHMKICAgICAgICB1c2VyIC0+IG11bHRpUGFnZUFwcGxpY2F0aW9uQ29udCAiU2lnbnMgaW4sIHN0YXJ0cy9lbmRzIHByb2Nlc3MsIHRyaWdnZXJzIE5GVCBtaW50cyIKICAgICAgICB1c2VyIC0+IHdlYmFwcENvbXAgIlJlcXVlc3RzIHBhZ2UgZnJvbSIgIkhUVFAiCiAgICAgICAgd2ViYXBwQ29tcCAtPiBtdWx0aVBhZ2VBcHBsaWNhdGlvbkNvbnQgIkRlbGl2ZXJzIHRvIHRoZSB1c2VyJ3MgYnJvd3NlciIgIkhUVFAiCiAgICAgICAgbXVsdGlQYWdlQXBwbGljYXRpb25Db250IC0+IHNtYXJ0Q29udHJhY3RDb250ICJNYWtlcyBtb3ZlIGNhbGxzIgogICAgICAgIGF1dGhlbnRpY2F0b3IgLT4gbWFpbkNvbXBvbmVudCAiQXV0aGVudGljYXRlcyB0cmFuc2FjdGlvbnMgb2YiCiAgICAgICAgYXNzZXRzIC0+IG1haW5Db21wb25lbnQgIkdldCBkaXNwbGF5ZWQgb24iCgogICAgICAgIHVzZXIgLT4gYXV0aGVudGljYXRvciAiU2lnbnMgaW4gd2l0aCIKICAgICAgICB1c2VyIC0+IG1haW5Db21wb25lbnQgIkludGVyYWN0cyB3aXRoIgoKICAgICAgICBtYWluQ29tcG9uZW50IC0+IHNtYXJ0Q29udHJhY3RDb250ICJNYWtlcyBtb3ZlIGNhbGxzIHRvIgogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1Db250ZXh0IGdhbWUgIkNvbnRleHQiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9sYXlvdXQgbHIKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBnYW1lICJDb250YWluZXIiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9sYXlvdXQKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCBtdWx0aVBhZ2VBcHBsaWNhdGlvbkNvbnQgIkNvbXBvbmVudCIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b2xheW91dAogICAgICAgIH0KCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiU1BBIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiYXNzZXRzIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBGb2xkZXIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJNYWluIENvbXBvbmVudCIgewogICAgICAgICAgICAgICAgc2hhcGUgSGV4YWdvbgogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB0aGVtZXMgZGVmYXVsdAogICAgfQoKfQo="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "user"
+      },
+      "name" : "User",
+      "description" : "A user having a wallet that supports Sui.",
+      "relationships" : [ {
+        "id" : "9",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "502994bf-5274-4d51-9cc6-c138d4596dfa"
+        },
+        "sourceId" : "1",
+        "destinationId" : "2",
+        "description" : "Plays"
+      }, {
+        "id" : "10",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "21e3f204-1d26-4435-af4d-102939027ebc"
+        },
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "Signs in, starts/ends process, triggers NFT mints"
+      }, {
+        "id" : "11",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "8f302be0-9ccd-49e4-a031-d114153b10b2"
+        },
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Requests page from",
+        "technology" : "HTTP"
+      }, {
+        "id" : "16",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "7b5ee990-9732-4da6-9832-b18d0d71e6ff"
+        },
+        "sourceId" : "1",
+        "destinationId" : "5",
+        "description" : "Signs in with"
+      }, {
+        "id" : "17",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "a6f0c646-f476-4e2a-8b48-6eb722cadcff"
+        },
+        "sourceId" : "1",
+        "destinationId" : "6",
+        "description" : "Interacts with"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "2",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "game"
+      },
+      "name" : "POC dApp",
+      "description" : "Allows Mysten Labs to showcase a POC.",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "3",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "webappcomp"
+        },
+        "name" : "Web Application",
+        "description" : "Delivers the UI as a single page application.",
+        "relationships" : [ {
+          "id" : "12",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "e63d9652-e737-41f3-9279-7b7adfbc349a"
+          },
+          "sourceId" : "3",
+          "destinationId" : "4",
+          "description" : "Delivers to the user's browser",
+          "technology" : "HTTP"
+        } ],
+        "group" : "Frontend",
+        "technology" : "next.js",
+        "documentation" : { }
+      }, {
+        "id" : "4",
+        "tags" : "Element,Container,SPA",
+        "properties" : {
+          "structurizr.dsl.identifier" : "multipageapplicationcont"
+        },
+        "name" : "Multi-Page-Application",
+        "description" : "A single page application that the user interacts with.",
+        "relationships" : [ {
+          "id" : "13",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "5a6e5d63-53bb-4edd-93ba-42e50205b9b7"
+          },
+          "sourceId" : "4",
+          "destinationId" : "8",
+          "description" : "Makes move calls"
+        } ],
+        "group" : "Frontend",
+        "technology" : "React",
+        "components" : [ {
+          "id" : "7",
+          "tags" : "Element,Component,assets",
+          "properties" : {
+            "structurizr.dsl.identifier" : "assets"
+          },
+          "name" : "Assets",
+          "description" : "Contains the app's icons, look and other designs.",
+          "relationships" : [ {
+            "id" : "15",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "fa181e34-249a-4a47-893e-b63d32423d3e"
+            },
+            "sourceId" : "7",
+            "destinationId" : "6",
+            "description" : "Get displayed on"
+          } ],
+          "technology" : "PNG, JPEG, SVG",
+          "documentation" : { }
+        }, {
+          "id" : "6",
+          "tags" : "Element,Component,Main Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "maincomponent"
+          },
+          "name" : "Main Component",
+          "description" : "Allows the user to interact with the game board and the cards.",
+          "relationships" : [ {
+            "id" : "18",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "652d3a11-615b-4a9e-8689-567eb9cda589"
+            },
+            "sourceId" : "6",
+            "destinationId" : "8",
+            "description" : "Makes move calls to"
+          } ],
+          "technology" : "React, Sui TS-SDK",
+          "documentation" : { }
+        }, {
+          "id" : "5",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "authenticator"
+          },
+          "name" : "Authenticator",
+          "description" : "Handles the user's transaction authentication.",
+          "relationships" : [ {
+            "id" : "14",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "43411aea-2077-4b09-ba0b-9fcdec4516fd"
+            },
+            "sourceId" : "5",
+            "destinationId" : "6",
+            "description" : "Authenticates transactions of"
+          } ],
+          "technology" : "zklogin",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container,smart contract",
+        "properties" : {
+          "structurizr.dsl.identifier" : "smartcontractcont"
+        },
+        "name" : "Smart Contract",
+        "description" : "Contains all the smart contract rules.",
+        "group" : "Web3 Layer",
+        "technology" : "Sui Move",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "key" : "Context",
+      "order" : 1,
+      "softwareSystemId" : "2",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "9"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "Container",
+      "order" : 2,
+      "softwareSystemId" : "2",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "4",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "8",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "13"
+      }, {
+        "id" : "11"
+      }, {
+        "id" : "12"
+      }, {
+        "id" : "10"
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Component",
+      "order" : 3,
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : false
+      },
+      "containerId" : "4",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "5",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "6",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "7",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "8",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "18"
+      }, {
+        "id" : "17"
+      }, {
+        "id" : "16"
+      }, {
+        "id" : "15"
+      }, {
+        "id" : "14"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "SPA",
+          "shape" : "WebBrowser"
+        }, {
+          "tag" : "assets",
+          "shape" : "Folder"
+        }, {
+          "tag" : "Main Component",
+          "shape" : "Hexagon"
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "lastSavedView" : "Component"
+    }
+  }
+}
