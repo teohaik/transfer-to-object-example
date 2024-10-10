@@ -1,10 +1,17 @@
 [package]
-name = "poc"
+name = "tto_test"
 version = "0.0.1"
+edition = "2024.beta"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
 
 [addresses]
-poc =  "0x0"
+tto_test =  "0x0"
 sui =  "0000000000000000000000000000000000000000000000000000000000000002"
+
+
+# Random addresses for move tests
+alice = "0xA11CE"
+admin = "0x5A1A1A"
+bob = "0xB0B"

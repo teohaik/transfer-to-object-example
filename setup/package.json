@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "setup": "env-cmd -f .env ts-node src/setup"
+    "mint": "env-cmd -f .env ts-node src/mintNFT",
+    "countLikes": "env-cmd -f .env ts-node src/countLikes",
+    "like": "env-cmd -f .env ts-node src/likeNFT"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@mysten/sui.js": "^0.41.2",
+    "@mysten/sui": "^1.6.0",
     "dotenv": "^16.0.3",
     "typescript": "^5.0.4"
   },
