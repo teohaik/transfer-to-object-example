@@ -2,6 +2,7 @@ module tto_test::coolnft;
 
 use std::string::{String};
 use sui::table::{Self, Table};
+use sui::package::{Self};
 
 //Errors
 const EAlreadyLikedThisNFT : u64 = 0;
@@ -33,6 +34,7 @@ public struct Contest has key {
     votesPerNFT: Table<address, u64>,
     reportsPerNFT: Table<address, u64>
 }
+
 
 
 //Business Functions

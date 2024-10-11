@@ -137,28 +137,26 @@ CREATED_OBJS=$(echo "$PUBLISH_RES" | jq -r '.objectChanges[] | select(.type == "
 # TODO: Uncomment as needed
 #ADMIN_CAP=$(echo "$CREATED_OBJS" | jq -r 'select (.objectType | contains("single_player_blackjack::HouseAdminCap")).objectId')
 
+PUBLISHER_ID=$(echo "$CREATED_OBJS" | jq -r 'select (.objectType | contains("package::Publisher")).objectId')
+
+
 echo "Publish new env var to setup/.env: "
 echo "SUI_NETWORK=$NETWORK"
 echo "PACKAGE_ADDRESS=$PACKAGE_ID"
 echo "ADMIN_ADDRESS=$ADMIN_ADDRESS"
+echo "PUBLISHER_ID=$PUBLISHER_ID"
+
 # TODO: Uncomment as needed
 #echo "ADMIN_CAP=$ADMIN_CAP"
 cat >.env<<-API_ENV
 SUI_NETWORK=$NETWORK
 PACKAGE_ADDRESS=$PACKAGE_ID
 ADMIN_ADDRESS=$ADMIN_ADDRESS
+PUBLISHER_ID=$PUBLISHER_ID
+
 #ADMIN_CAP=$ADMIN_CAP
 API_ENV
 
-echo "Publish new env var to app/.env"
-echo "NEXT_PUBLIC_SUI_NETWORK=$NETWORK"
-echo "NEXT_PUBLIC_PACKAGE_ADDRESS=$PACKAGE_ID"
-echo "NEXT_PUBLIC_ADMIN_ADDRESS=$ADMIN_ADDRESS"
-cat >../app/.env$SUFFIX<<-VITE_API_ENV
-NEXT_PUBLIC_SUI_NETWORK=$NETWORK
-NEXT_PUBLIC_PACKAGE_ADDRESS=$PACKAGE_ID
-NEXT_PUBLIC_ADMIN_ADDRESS=$ADMIN_ADDRESS
-VITE_API_ENV
 
 # TODO: Uncomment as needed
 #echo "Publish new env var to ../api.env"

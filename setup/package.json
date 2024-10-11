@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "mint": "env-cmd -f .env ts-node src/mintNFT",
-    "countLikes": "env-cmd -f .env ts-node src/countLikes",
-    "like": "env-cmd -f .env ts-node src/likeNFT"
+    "init": "env-cmd -f .env ts-node src/00_initApp.ts",
+    "mint": "env-cmd -f .env ts-node src/a1_mintNFT.ts",
+    "like": "env-cmd -f .env ts-node src/a2_likeNFT.ts",
+    "countLikes": "env-cmd -f .env ts-node src/a3_countLikes.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@mysten/kiosk": "^0.9.21",
     "@mysten/sui": "^1.6.0",
     "dotenv": "^16.0.3",
     "typescript": "^5.0.4"
