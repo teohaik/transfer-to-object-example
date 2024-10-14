@@ -108,7 +108,6 @@ public fun count_votes(nftId: ID,  kiosk: &mut Kiosk): u64 {
 }
 
 
-
 #[test_only]
 public fun init_for_testing(ctx: &mut TxContext) {
     let contest = Contest{
@@ -122,11 +121,13 @@ public fun init_for_testing(ctx: &mut TxContext) {
 }
 
 #[test_only]
-public fun mint_nft_for_testing(name: String, ctx: &mut TxContext) : TeoCoolNFT {
-    TeoCoolNFT{
-        id: object::new(ctx),
+public fun mint_nft_for_testing(name: String, ctx: &mut TxContext) : (TeoCoolNFT, ID) {
+    let uid = object::new(ctx);
+    let id = uid.to_inner();
+    (TeoCoolNFT{
+        id: uid,
         name: name
-    }
+    }, id)
 }
 
 #[test_only]

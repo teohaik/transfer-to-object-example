@@ -2,7 +2,6 @@ module tto_test::coolnft;
 
 use std::string::{String};
 use sui::table::{Self, Table};
-use sui::package::{Self};
 
 //Errors
 const EAlreadyLikedThisNFT : u64 = 0;

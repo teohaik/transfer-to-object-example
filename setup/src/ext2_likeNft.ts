@@ -16,6 +16,11 @@ const run = async () => {
     arguments: [tx.object(NFT_ID!), tx.object(KIOSK_ID!)],
   });
 
+  tx.moveCall({
+    target: `${PACKAGE_ID}::coolnftext::count_votes`,
+    arguments: [tx.object(NFT_ID!), tx.object(KIOSK_ID!)],
+  });
+
   tx.setGasBudget(100000000);
 
   const res = await suiClient.signAndExecuteTransaction({
